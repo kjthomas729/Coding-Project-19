@@ -1,0 +1,39 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .tour {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .tour h2 {
+    font-size: 1.5em;
+  }
+  
+  .tour p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .tour button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .tour button:hover {
+    background-color: #eee;
+  }  
